@@ -1,0 +1,20 @@
+Question - why we write index.html and default.html mostly ?
+
+Whenever we upload file on server there is default files 
+which server look them index.html and default.html are those files. 
+
+mostly we create index.html we can also create default.html
+but mostly developer create index.html so that why we create index.html
+otherwise no restriction.
+
+
+
+Question - Can we write index.html or index.htm ?
+
+Yes, we can write index.html and index.htm both are correct way to
+create html file but we mostly write index.html because extension
+looks good if they are even like index.js, index.java, index.html
+index.py so that's why we write index.html otherwise we can write index.htm to.
+
+
+
