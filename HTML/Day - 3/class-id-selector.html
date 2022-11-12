@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>class id selector</title>
+    
+    <style>
+        .bg-black {
+            background-color: black;
+            color: white;
+        }
+
+        #item-2 {
+            background-color: cyan;
+            color: black;
+        }
+
+        .test-2, .test-3 {
+            background-color: brown;
+            color: white;
+        }
+
+    </style>
+</head>
+<body>
+    <div>Welcome to live class</div>
+    <span class="bg-pink">Span is just a span, nothing more</span>
+    <p>We all know paragraph</p>
+    <ul>
+      <li class="bg-black text-white">item1</li>
+      <li id="item-2">item2</li>
+      <li id="item-3">item3</li>
+      <li id="item-4">item4</li>
+      <li>item5</li>
+    </ul>
+
+    <div>
+      <p>lorem</p>
+      <li>awesome</li>
+      <ul>
+        <li>highlight me <a href="#">test</a></li>
+        <li>highlight me</li>
+      </ul>
+    </div>
+
+    <section>
+      <p class="sibling">Test 1</p>
+      <p class="test-2">Test 2</p>
+      <p class="test-3">Test 3</p>
+      <p >Test 4</p>
+      <p>Test 5</p>
+    </section>
+</body>
+</html>

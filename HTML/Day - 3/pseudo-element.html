@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudo element selector</title>
+
+    <style>
+        p::first-line{
+            background-color: black;
+            color: rgb(255, 0, 221);
+        }
+
+        p::first-letter{
+            text-transform: uppercase;
+            font-size: 50px;
+        }
+
+        .btn:hover::after{
+            content: 'Hey!!';
+            background-color: pink;
+
+        }
+
+        .btn-2:hover::before {
+            content: "how are you";
+            background-color: pink;
+            text-transform: uppercase;
+        }
+
+
+     
+    </style>
+</head>
+<body>
+    
+    <form action="">
+        <label class="name-label">Name </label>
+        <input type="text" class="name" placeholder="enter name">
+        <label class="clg-label">College </label>
+        <input type="text" class="clg-name" placeholder="enter college name">
+    </form>
+
+    <hr>
+
+    <button class="btn">click here</button>
+    <button class="btn-2">click here</button>
+
+    <hr>
+
+    <p class="para-class">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus tempore, fugit repudiandae rerum, delectus quae dolor nisi asperiores corrupti minus porro aliquid eum natus minima quod nemo libero blanditiis vel? Aliquid nisi deleniti praesentium voluptas impedit voluptate libero labore assumenda, dolorum officiis recusandae. Delectus soluta velit illum ad necessitatibus nemo architecto blanditiis, aliquam recusandae. Veniam dignissimos maiores assumenda, dicta nobis perspiciatis laborum perferendis distinctio, saepe animi minima nostrum non, voluptatem ullam! Odio nam, ea perferendis et voluptatibus excepturi voluptatem optio animi cumque adipisci, harum sequi quas praesentium laboriosam ratione quisquam temporibus velit consectetur doloremque ut voluptatum sint quidem? Excepturi, debitis?</p>
+
+</body>
+</html>
