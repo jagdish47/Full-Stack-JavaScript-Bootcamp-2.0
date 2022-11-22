@@ -1,2 +1,141 @@
 /* You can not modify anything in the HTML */
 /* You can only modify the CSS file */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+}
+
+/* navbar css starts from here */
+.navbar-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 15vh;
+}
+
+.list {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    align-items: center;
+
+}
+
+.list-item{
+    margin-left: 2rem;
+    font-family: 'Poppins';
+    color: grey;
+    cursor: pointer;
+}
+
+.list-item:hover {
+    color: #000;
+}
+
+.navbar-container div:nth-child(1){
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 20%;
+    height: 100%;
+}
+
+.navbar-container div:nth-child(2){
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 60%;
+    height: 100%;
+}
+
+.navbar-container div:nth-child(3){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    height: 100%;
+}
+
+.button-group .nav-button {
+    padding: 20px 50px;
+    background-color: #5955B3;
+    border-radius: 10px;
+    color: #fff;
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 1rem;
+    border: none;
+}
+
+/* navbar css ends here */
+
+/* banner sections start from here */
+
+.banner-container {
+    display: flex;
+    height: 85vh;
+    width: 100%;
+}
+
+.banner-container div:first-child {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width: 40%;
+    padding: 100px 100px 0px 100px;
+    align-items: flex-start;
+
+}
+
+.heading-text {
+    font-family: 'Poppins';
+    font-size: 5rem;
+    line-height: 90px;
+    font-weight: 500;
+    color: #3C2F60;
+}
+
+.description {
+    color: grey;
+    font-family: 'Poppins';
+    margin-top: 30px;
+    padding-right: 120px;
+}
+
+.btn {
+    padding: 20px 50px;
+    background-color: #5955B3;
+    border-radius: 10px;
+    color: #fff;
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 1rem;
+    border: none;
+    margin-top: 100px;
+    float: left;
+}
+
+.heading-text span {
+    color: #5A56B3;
+}
+
+.banner-container div:last-child {
+    height: 100%;
+    width: 60%;
+}
+
+.banner-container div:last-child img{
+    height: 100%;
+    width: 100%;
+}
