@@ -1,2 +1,153 @@
 /* You can not modify anything in the HTML */
 /* You can only modify the CSS file */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  height: 100vh;
+  width: 100%;
+  /* background-color: teal; */
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  height: 100px;
+  color: #ffffff;
+  background-color: #000000;
+}
+
+.line::after {
+  content: "|";
+  font-size: 70px;
+  text-align: center;
+  color: #ffffff;
+  font-weight: lighter;
+  position: relative;
+  bottom: 7px;
+  right: 15px;
+}
+
+.grow-list {
+  height: 100%;
+  width: 60%;
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.grow-list .list {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  list-style: none;
+  margin-left: 30px;
+}
+
+.grow-list .list li {
+  padding: 0px 30px;
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.list li:nth-child(1)::after {
+  content: "";
+}
+
+nav div:nth-child(1) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border: 2px solid red; */
+  height: 100%;
+  width: 20%;
+}
+
+nav div:nth-child(1) img {
+  width: 130px;
+}
+
+nav div:last-child {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20%;
+  height: 100%;
+  /* border: 2px solid green; */
+}
+
+.button-small {
+  background-color: #ba0cc5;
+  color: #ffffff;
+  font-size: 15px;
+  border: none;
+  border-radius: 5px;
+  font-family: "Poppins";
+  font-weight: 600;
+  padding: 15px 40px;
+  cursor: pointer;
+}
+
+/* navbar section ends here */
+
+/* hero section starts from here */
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: 90vh;
+  background-image: linear-gradient(
+      45deg,
+      rgba(3, 3, 3, 0.144),
+      rgba(3, 3, 3, 0.151)
+    ),
+    url(./assets/bg.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero-heading {
+  font-family: "Poppins";
+  color: #ffffff;
+  font-size: 78px;
+  height: 170px;
+  width: 830px;
+  /* border: 2px solid yellow; */
+  line-height: 80px;
+  text-align: center;
+}
+
+.hero-description {
+  color: #ffffff;
+  font-family: "Poppins";
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 50px;
+}
+
+.button-large {
+  background-color: #ba0cc5;
+  color: #ffffff;
+  font-size: 30px;
+  border: none;
+  border-radius: 10px;
+  font-family: "Poppins";
+  font-weight: 600;
+  padding: 10px 25px;
+  margin-top: 20px;
+  cursor: pointer;
+}
