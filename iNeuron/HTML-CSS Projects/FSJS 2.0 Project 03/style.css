@@ -17,7 +17,8 @@
   align-items: center;
   justify-content: space-around;
   width: 100%;
-  border: 2px solid black;
+  height: 150px;
+  /* border: 2px solid black; */
 }
 
 .navbar-container div:nth-child(1) {
@@ -26,21 +27,36 @@
   justify-content: center;
   height: 100%;
   width: 20%;
-  border: 2px solid red;
+  /* border: 2px solid red; */
 }
 
 .navbar-container div:nth-child(2) {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
   height: 100%;
   width: 50%;
-  border: 2px solid red;
+  /* border: 2px solid red; */
 }
 
 .list {
+  height: 100%;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
   font-family: "Orbitron";
   list-style: none;
+  font-size: 20px;
+  font-weight: 500;
+  transition: all 0.5s;
+}
+
+ul li:hover {
+  font-weight: 700;
+  border-bottom: 4px solid rgb(0, 0, 0);
+  font-size: 23px;
+  cursor: pointer;
 }
 
 .button-group {
@@ -49,5 +65,39 @@
   justify-content: center;
   width: 30%;
   height: 100%;
+  /* border: 2px solid green; */
+}
+
+.search-icon {
+  position: relative;
+  left: 70px;
+  cursor: pointer;
+}
+
+.nav-button {
+  color: grey;
+  background-color: #ffffff;
+  border: 3px solid #000;
+  font-size: 24px;
+  border-radius: 20px;
+  font-weight: 500;
+  font-family: "Poppins";
+  padding: 10px 53px;
+  cursor: pointer;
+}
+
+/* navbar ends here */
+/* hero section starts from here */
+
+.hero-container {
+  width: 100%;
+  height: 85vh;
+  border: 5px solid red;
+}
+
+.hero-container-right {
+  float: right;
+  height: 100%;
+  width: 60%;
   border: 2px solid green;
 }
