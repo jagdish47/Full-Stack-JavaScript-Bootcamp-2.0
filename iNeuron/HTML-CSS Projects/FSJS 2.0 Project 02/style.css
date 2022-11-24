@@ -61,7 +61,8 @@
 }
 
 .list li:nth-child(1)::after {
-  content: "";
+  content: " ˅";
+  font-weight: bolder;
 }
 
 nav div:nth-child(1) {
