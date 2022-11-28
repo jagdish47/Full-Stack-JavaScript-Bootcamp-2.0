@@ -60,6 +60,7 @@ main {
   width: 60%;
 }
 
+/* select all images of div */
 div > img {
   margin: 8px;
 }
