@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Search */
+  background: #f9f5ed;
+}
+nav {
+  padding: 20px 10%;
+  height: 15vh;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+}
+
+nav ul li {
+  list-style: none;
+  margin-right: 5%;
+  /* gap: 50px; */
+  font-weight: 500;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* CSS for HERO Section */
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10%;
+}
+
+.leftmain {
+  width: 40%;
+}
+
+.leftmain h1 {
+  font-size: 67px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.leftmain p {
+  margin: 5% 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.leftmain button {
+  padding: 15px 20px;
+  border: none;
+  background-color: #3b855b;
+  border-radius: 10px;
+  color: white;
+  font-weight: 500;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.rightmain {
+  width: 60%;
+}
+
+div > img {
+  margin: 8px;
+}

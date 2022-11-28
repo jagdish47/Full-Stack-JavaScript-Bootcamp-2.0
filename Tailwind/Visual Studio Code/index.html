@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Visual Studio Code - Code Editing. Redefined</title>
+  </head>
+  <body>
+    <!-- navbar  -->
+    <nav>
+      <!-- navbar main-container -->
+      <div
+        class="w-screen h-12 bg-[#2C2C32] flex text-white items-center justify-around"
+      >
+        <!-- logo container -->
+        <div class="flex ml-40">
+          <img
+            class="w-8 mx-3"
+            src="./Assets/apple-touch-icon.png"
+            alt="image-logo"
+          />
+          <h3 class="m-auto">Visual Studio Code</h3>
+        </div>
+
+        <!-- link container -->
+        <div class="text-[#9B9B9E]">
+          <ul class="flex">
+            <li class="pr-5 hover:text-white">Docs</li>
+            <li class="pr-5 hover:text-white">Updates</li>
+            <li class="pr-5 hover:text-white">Blog</li>
+            <li class="pr-5 hover:text-white">API</li>
+            <li class="pr-5 hover:text-white">Extensions</li>
+            <li class="pr-5 hover:text-white">FAQ</li>
+            <li class="pr-5 hover:text-white">Learn</li>
+          </ul>
+        </div>
+
+        <!-- search container -->
+        <div class="flex mr-15">
+          <i
+            class="fa-sharp fa-solid fa-magnifying-glass relative left-10 top-4"
+          ></i>
+
+          <input
+            class="h-12 w-18 pl-14 bg-[#3D3D42]"
+            type="text"
+            placeholder="Search Docs"
+          />
+
+          <button class="bg-[#0066B8] px-10 py-3">
+            <i class="fa-sharp fa-solid fa-arrow-down"></i> Download
+          </button>
+        </div>
+      </div>
+    </nav>
+
+    <!-- second navbar -->
+    <nav>
+      <div class="flex items-center justify-center w-screen h-10 bg-[#25252B]">
+        <p class="text-center text-[#87878A]">
+          <a class="text-[#177AF8] hover:border-b" href="#">Version 1.73</a>
+          is now available! Read about the new features and fixes from October.
+        </p>
+      </div>
+    </nav>
+
+    <!-- hero section  -->
+    <section>
+      <div class="hero-container h-30 w-screen bg-black"></div>
+    </section>
+  </body>
+</html>
