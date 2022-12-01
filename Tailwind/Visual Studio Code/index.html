@@ -17,7 +17,7 @@
   <body>
     <!-- Navbar starts here -->
     <nav>
-      <div class="w-full h-14 bg-[#2C2C32]">
+      <div class="w-full h-14 bg-[#2C2C32] fixed">
         <div class="flex justify-around items-center h-full w-3/5 m-auto">
           <div class="flex items-center">
             <img
@@ -25,7 +25,7 @@
               src="./Assets/apple-touch-icon.png"
               alt="image here"
             />
-            <h3 class="text-white text-xl">Visual Studio Code</h3>
+            <h3 class="text-white text-xl font-light">Visual Studio Code</h3>
           </div>
 
           <div>
@@ -40,19 +40,19 @@
             </ul>
           </div>
 
-          <div class="h-full">
+          <div class="h-full mb-1">
             <!-- input -->
             <i
               class="text-white relative left-8 fa-solid fa-magnifying-glass"
             ></i
             ><input
-              class="h-full w-52 bg-[#3D3D42] pl-10 hover:bg-[#525257] text-white"
+              class="pr-4 text-sm focus:outline-none h-full w-48 bg-[#3D3D42] pl-10 hover:bg-[#525257] text-white"
               type="text"
               placeholder="Search Docs"
             />
             <!-- btn -->
             <button
-              class="bg-[#2D74D7] text-white h-full w-36 relative right-5 hover:bg-[#005BA4]"
+              class="bg-[#2D74D7] text-white h-full w-36 relative right-1 hover:bg-[#005BA4]"
             >
               <i class="fa-sharp fa-solid fa-arrow-down"></i> Download
             </button>
@@ -146,21 +146,29 @@
 
     <div class="w-full h-36">
       <div class="flex justify-around w-3/5 h-full m-auto">
-        <div class="h-full w-40 text-center">
-          <i class="mt-4 text-6xl fa-sharp fa-solid fa-lightbulb"></i>
-          <p class="mt-2">IntelliSense</p>
+        <div class="h-full w-40 text-center hover:bg-[#E3E3E3]">
+          <i
+            class="hover:text-[#2E3192] mt-4 text-6xl fa-sharp fa-solid fa-lightbulb"
+          ></i>
+          <p class="hover:text-black mt-2">IntelliSense</p>
         </div>
-        <div class="h-full w-40 text-center">
-          <i class="mt-4 text-6xl fa-sharp fa-solid fa-bug-slash"></i>
+        <div class="h-full w-40 text-center hover:bg-[#E3E3E3]">
+          <i
+            class="hover:text-[#37B34A] mt-4 text-6xl fa-sharp fa-solid fa-bug-slash"
+          ></i>
           <p class="mt-2">Run and Debug</p>
         </div>
-        <div class="h-full w-40 text-center">
-          <i class="mt-4 text-6xl fa-brands fa-git-alt"></i>
-          <p class="mt-2">Built-in Git</p>
+        <div class="h-full w-40 text-center hover:bg-[#E3E3E3]">
+          <i
+            class="hover:text-[#F42534] mt-4 text-6xl fa-brands fa-git-alt"
+          ></i>
+          <p class="hover:text-black mt-2">Built-in Git</p>
         </div>
-        <div class="h-full w-40 text-center">
-          <i class="mt-4 text-6xl fa-brands fa-windows"></i>
-          <p class="mt-2">Extensions</p>
+        <div class="h-full w-40 text-center hover:bg-[#E3E3E3]">
+          <i
+            class="hover:text-[#2C2C32] mt-4 text-6xl fa-brands fa-windows"
+          ></i>
+          <p class="hover:text-black mt-2">Extensions</p>
         </div>
       </div>
     </div>
@@ -179,14 +187,22 @@
             />
           </div>
           <div class="w-64 mt-7">
-            <h6 class="font-bold text-left ml-5 mb-2">
+            <h6
+              class="font-bold text-left ml-5 mb-2 hover:text-[#2284C6] cursor-pointer"
+            >
               Una Kravets
               <span class="font-normal text-[#ABABAD] text-xs">@Una</span>
             </h6>
             <p class="text-left ml-5 text-[#444444]">
-              VS @code does so many things right. I’m constantly impressed by
-              the UX, and customizing workspace / user preferences is no
-              exception. 🙌🏼💯 It just keeps getting better ❤️
+              VS @code
+              <a
+                class="text-[#1D6A9E] hover:text-[#23A8F2] hover:border-b border-[#23A8F2]"
+                href="#"
+                >@code</a
+              >
+              does so many things right. I’m constantly impressed by the UX, and
+              customizing workspace / user preferences is no exception. 🙌🏼💯 It
+              just keeps getting better ❤️
             </p>
           </div>
         </div>
@@ -200,7 +216,9 @@
             />
           </div>
           <div class="w-64 mt-7">
-            <h6 class="font-bold text-left ml-5 mb-2">
+            <h6
+              class="font-bold text-left ml-5 mb-2 hover:text-[#2284C6] cursor-pointer"
+            >
               Jonathan Dunlap
               <span class="font-normal text-[#ABABAD] text-xs">@jadbox </span>
             </h6>
@@ -221,7 +239,9 @@
             />
           </div>
           <div class="w-64 mt-7">
-            <h6 class="font-bold text-left ml-5 mb-2">
+            <h6
+              class="font-bold text-left ml-5 mb-2 hover:text-[#2284C6] cursor-pointer"
+            >
               Pavithra Kodmad
               <span class="font-normal text-[#ABABAD] text-xs">@PKodmad </span>
             </h6>
@@ -302,11 +322,16 @@
           <h2 class="text-3xl font-light mb-10">
             Extensible and customizable.
           </h2>
-          <p class="leading-10">
+          <p class="leading-10 text-left pr-24">
             Want even more features? Install extensions to add new languages,
             themes, debuggers, and to connect to additional services. Extensions
             run in separate processes, ensuring they won't slow down your
-            editor. Learn more about extensions.
+            editor.
+            <a
+              class="text-[#1D6A9E] hover:text-[#23A8F2] hover:border-b border-[#23A8F2]"
+              href="#"
+              >Learn more about extensions.</a
+            >
           </p>
         </div>
         <div class="flex items-center justify-end w-3/5 h-full">
@@ -327,10 +352,20 @@
             Deploy with confidence and ease
           </h2>
           <p class="leading-10">
-            With Microsoft Azure you can deploy and host your React, Angular,
-            Vue, Node, Python (and more!) sites, store and query relational and
-            document based data, and scale with serverless computing, all with
-            ease, all from within VS Code.
+            With
+            <a
+              class="text-[#1D6A9E] hover:text-[#23A8F2] hover:border-b border-[#23A8F2]"
+              href="#"
+              >Microsoft Azure</a
+            >
+            you can deploy and host your React, Angular, Vue, Node, Python (and
+            more!) sites, store and query relational and document based data,
+            and scale with serverless computing, all with ease,
+            <a
+              class="text-[#1D6A9E] hover:text-[#23A8F2] hover:border-b border-[#23A8F2]"
+              href="#"
+              >all from within VS Code.</a
+            >
           </p>
         </div>
       </div>
@@ -383,7 +418,7 @@
         </div>
 
         <!-- two -->
-        <div class="mt-4 text-[#444444] flex items-center justify-center">
+        <div class="mt-8 mb-4 text-[#444444] flex items-center justify-center">
           <div class="mr-10">
             <img class="inline" src="./Assets/json.svg" alt="image-here" />
             <span>JSON</span>
@@ -417,7 +452,7 @@
         <!-- link -->
         <div class="mt-4">
           <a
-            class="text-[#0066BB] hover:border-b hover:border-[#0066BB]"
+            class="text-[#1D6A9E] hover:text-[#23A8F2] hover:border-b border-[#23A8F2]"
             href="#"
             >and many more languages on the Marketplace...</a
           >
@@ -426,7 +461,7 @@
         <!-- button -->
         <div class="mt-8">
           <button
-            class="border-2 bg-[#0066B8] text-white px-12 py-4 font-semi-bold text-xl"
+            class="border-2 bg-[#0066B8] text-white px-12 py-4 font-semi-bold text-xl hover:bg-[#005BA4]"
           >
             Get Started Now
           </button>
@@ -721,6 +756,50 @@
               >
               to learn how to disable it.
             </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- footer section -->
+    <div class="w-full h-24 bg-[#333333]">
+      <div
+        class="flex flex-col items-center justify-center w-3/5 h-full m-auto"
+      >
+        <!-- first -->
+        <div class="flex items-center justify-between h-full w-full text-white">
+          <div class="text-sm flex">
+            <p class="mr-5">Hello from Seattle.</p>
+            <a class="mr-5 hover:text-[#B4A0FF]" href="#">Follow @code</a>
+            <button class="bg-white text-black rounded px-2">
+              <i class="pr-1 fa-brands fa-github"></i>Star
+            </button>
+            <button
+              class="hover:text-[#519ABA] ml-2 bg-white text-black rounded px-2"
+            >
+              139,668
+            </button>
+          </div>
+          <!-- second -->
+          <div class="text-sm flex">
+            <ul class="flex">
+              <li class="mr-5 hover:text-[#B4A0FF]"><a href="#">Support</a></li>
+              <li class="mr-5 hover:text-[#B4A0FF]"><a href="#">Privacy</a></li>
+              <li class="mr-5 hover:text-[#B4A0FF]">
+                <a href="#">Terms of Use</a>
+              </li>
+              <li class="mr-5 hover:text-[#B4A0FF]"><a href="#">License</a></li>
+              <li>
+                <a href="">
+                  <img
+                    class="w-24"
+                    src="./Assets/microsoft-logo.png"
+                    alt="image here"
+                  />
+                </a>
+                <span class="text-sm font-light">© 2022 Microsoft</span>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
