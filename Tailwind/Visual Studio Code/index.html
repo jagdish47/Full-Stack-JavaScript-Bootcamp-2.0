@@ -15,67 +15,715 @@
     <title>Visual Studio Code - Code Editing. Redefined</title>
   </head>
   <body>
-    <!-- navbar  -->
+    <!-- Navbar starts here -->
     <nav>
-      <!-- navbar main-container -->
+      <div class="w-full h-14 bg-[#2C2C32]">
+        <div class="flex justify-around items-center h-full w-3/5 m-auto">
+          <div class="flex items-center">
+            <img
+              class="w-6 mr-3"
+              src="./Assets/apple-touch-icon.png"
+              alt="image here"
+            />
+            <h3 class="text-white text-xl">Visual Studio Code</h3>
+          </div>
+
+          <div>
+            <ul class="flex items-center text-[#919194] mr-14">
+              <li class="mr-3 hover:text-white">Docs</li>
+              <li class="mr-3 hover:text-white">Updates</li>
+              <li class="mr-3 hover:text-white">Blog</li>
+              <li class="mr-3 hover:text-white">API</li>
+              <li class="mr-3 hover:text-white">Extensions</li>
+              <li class="mr-3 hover:text-white">FAQ</li>
+              <li class="mr-3 hover:text-white">Learn</li>
+            </ul>
+          </div>
+
+          <div class="h-full">
+            <!-- input -->
+            <i
+              class="text-white relative left-8 fa-solid fa-magnifying-glass"
+            ></i
+            ><input
+              class="h-full w-52 bg-[#3D3D42] pl-10 hover:bg-[#525257] text-white"
+              type="text"
+              placeholder="Search Docs"
+            />
+            <!-- btn -->
+            <button
+              class="bg-[#2D74D7] text-white h-full w-36 relative right-5 hover:bg-[#005BA4]"
+            >
+              <i class="fa-sharp fa-solid fa-arrow-down"></i> Download
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- header bottom -->
+      <div class="w-full h-12 bg-[#25252B]">
+        <div class="flex justify-around items-center h-full w-3/5 m-auto">
+          <p class="text-[#A6A6A7]">
+            <a class="text-[#0098FF] hover:border-b border-[#0098FF]" href="#"
+              >Version 1.73</a
+            >
+            is now available! Read about the new features and fixes from
+            October.
+          </p>
+        </div>
+      </div>
+    </nav>
+
+    <!-- navbar ends here -->
+
+    <!-- hero section -->
+    <section class="h-full">
+      <div class="w-full h-3/5 bg-[#2C2C32]">
+        <div class="flex items-center justify-center w-3/5 h-full m-auto">
+          <div class="flex flex-col items-center justify-center">
+            <h2 class="text-white text-5xl font-light mb-2">Code editing.</h2>
+            <h2 class="text-white text-5xl">Redefined.</h2>
+            <p class="text-[#ABABAD] my-5">
+              Free. Built on open source. Runs everywhere.
+            </p>
+            <div class="flex ml-10">
+              <button
+                class="bg-[#0066B8] text-white h-16 w-36 relative right-5 hover:bg-[#005BA4] mr-1"
+              >
+                <i class="pr-2 fa-sharp fa-solid fa-arrow-down"></i> .deb
+                <p class="text-xs py-1">Debian, Ubuntu...</p>
+              </button>
+
+              <button
+                class="bg-[#0066B8] text-white h-16 w-36 relative right-5 hover:bg-[#005BA4] mr-1"
+              >
+                <i class="pr-2 fa-sharp fa-solid fa-arrow-down"></i> .rpm
+                <p class="text-xs py-1">Red Hat, Fedora...</p>
+              </button>
+
+              <button
+                class="bg-[#0066B8] text-white h-16 w-9 relative right-5 hover:bg-[#005BA4]"
+              >
+                <i class="fa-solid fa-chevron-down"></i>
+              </button>
+            </div>
+            <!-- links -->
+            <p
+              class="bg-[#25252B] rounded text-sm text-center mt-4 p-2 text-[#ABABAD]"
+            >
+              <a class="text-[#0098FF] hover:border-b border-[#0098FF]" href="#"
+                >Web</a
+              >,
+              <a class="text-[#0098FF] hover:border-b border-[#0098FF]" href="#"
+                >Insiders edition</a
+              >, or
+              <a class="text-[#0098FF] hover:border-b border-[#0098FF]" href="#"
+                >other platforms</a
+              >
+            </p>
+            <p class="text-xs text-center mt-2 p-2 text-[#ABABAD]">
+              By using VS Code, you agree to its
+            </p>
+            <!-- links -->
+            <p class="text-center">
+              <a
+                class="text-xs text-[#0098FF] hover:border-b border-[#0098FF]"
+                href="#"
+                >license and privacy statement.</a
+              >
+            </p>
+          </div>
+          <div class="w-4/6 ml-8">
+            <img src="./Assets/home-screenshot-linux-lg.png" alt="image here" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- hero sectio ends here -->
+
+    <!-- feature section starts from here -->
+
+    <div class="w-full h-36">
+      <div class="flex justify-around w-3/5 h-full m-auto">
+        <div class="h-full w-40 text-center">
+          <i class="mt-4 text-6xl fa-sharp fa-solid fa-lightbulb"></i>
+          <p class="mt-2">IntelliSense</p>
+        </div>
+        <div class="h-full w-40 text-center">
+          <i class="mt-4 text-6xl fa-sharp fa-solid fa-bug-slash"></i>
+          <p class="mt-2">Run and Debug</p>
+        </div>
+        <div class="h-full w-40 text-center">
+          <i class="mt-4 text-6xl fa-brands fa-git-alt"></i>
+          <p class="mt-2">Built-in Git</p>
+        </div>
+        <div class="h-full w-40 text-center">
+          <i class="mt-4 text-6xl fa-brands fa-windows"></i>
+          <p class="mt-2">Extensions</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- feature section ends here -->
+    <!-- review section -->
+    <!-- one -->
+    <div class="w-full h-96 bg-[#F5F5F5]">
+      <div class="flex justify-around w-3/5 h-full m-auto">
+        <div class="flex items-center h-full w-96 text-center">
+          <div class="w-24 mb-24">
+            <img
+              class="w-24 rounded-full"
+              src="./Assets/Una.jpg"
+              alt="Image here"
+            />
+          </div>
+          <div class="w-64 mt-7">
+            <h6 class="font-bold text-left ml-5 mb-2">
+              Una Kravets
+              <span class="font-normal text-[#ABABAD] text-xs">@Una</span>
+            </h6>
+            <p class="text-left ml-5 text-[#444444]">
+              VS @code does so many things right. I’m constantly impressed by
+              the UX, and customizing workspace / user preferences is no
+              exception. 🙌🏼💯 It just keeps getting better ❤️
+            </p>
+          </div>
+        </div>
+        <!-- two -->
+        <div class="flex items-center h-full w-96 text-center">
+          <div class="w-24 mb-24">
+            <img
+              class="w-24 rounded-full"
+              src="./Assets/jadbox.jpg"
+              alt="Image here"
+            />
+          </div>
+          <div class="w-64 mt-7">
+            <h6 class="font-bold text-left ml-5 mb-2">
+              Jonathan Dunlap
+              <span class="font-normal text-[#ABABAD] text-xs">@jadbox </span>
+            </h6>
+            <p class="text-left ml-5 text-[#444444]">
+              VS Code will have deep remote development. You can connect to a
+              container running a different OS and use any VS Code plugins,
+              linting, debugging for that environment. 🔥🔥🔥
+            </p>
+          </div>
+        </div>
+        <!-- three -->
+        <div class="flex items-center h-full w-96 text-center">
+          <div class="w-24 mb-24">
+            <img
+              class="w-24 rounded-full"
+              src="./Assets/PKodmad.jpg"
+              alt="Image here"
+            />
+          </div>
+          <div class="w-64 mt-7">
+            <h6 class="font-bold text-left ml-5 mb-2">
+              Pavithra Kodmad
+              <span class="font-normal text-[#ABABAD] text-xs">@PKodmad </span>
+            </h6>
+            <p class="text-left ml-5 text-[#444444]">
+              VS Code is my most used and favorite editor. I love being able to
+              customize the editor - changing the layout, the icons, fonts and
+              color scheme is so easy!
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- review section ends here -->
+
+    <!-- IntelliSense section starts -->
+
+    <div class="w-full h-96 bg-white">
+      <div class="flex items-center justify-center w-3/5 h-full m-auto">
+        <div class="flex items-center w-4/5 h-full">
+          <img src="./Assets/home-intellisense.svg" alt="image-here" />
+        </div>
+        <div class="text-[#444444] mb-20">
+          <h2 class="text-3xl font-light mb-10">Meet IntelliSense.</h2>
+          <p class="leading-10">
+            Go beyond syntax highlighting and autocomplete with IntelliSense,
+            which provides smart completions based on variable types, function
+            definitions, and imported modules.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- IntelliSense section ends  -->
+
+    <!-- debugging section start -->
+    <div class="w-full h-96 bg-[#F5F5F5]">
+      <div class="flex items-center justify-center w-3/5 h-full m-auto">
+        <div class="text-[#444444] mb-20">
+          <h2 class="text-3xl font-light mb-10">
+            Print statement debugging is a thing of the past.
+          </h2>
+          <p class="leading-10">
+            Debug code right from the editor. Launch or attach to your running
+            apps and debug with break points, call stacks, and an interactive
+            console.
+          </p>
+        </div>
+        <div class="flex items-center justify-end w-3/5 h-full">
+          <img src="./Assets/home-debug.svg" alt="image-here" />
+        </div>
+      </div>
+    </div>
+    <!-- debugging section ends  -->
+
+    <!-- git section start -->
+    <div class="w-full h-96 bg-white">
+      <div class="flex items-center justify-center w-3/5 h-full m-auto">
+        <div class="flex items-center w-4/5 h-full">
+          <img src="./Assets/home-git.svg" alt="image-here" />
+        </div>
+        <div class="text-[#444444] mb-20">
+          <h2 class="text-3xl font-light mb-10">Git commands built-in.</h2>
+          <p class="leading-10">
+            Working with Git and other SCM providers has never been easier.
+            Review diffs, stage files, and make commits right from the editor.
+            Push and pull from any hosted SCM service.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- git section ends here -->
+
+    <!-- Extension section start -->
+    <div class="w-full h-96 bg-[#F5F5F5]">
+      <div class="flex items-center justify-center w-3/5 h-full m-auto">
+        <div class="text-[#444444] mb-20">
+          <h2 class="text-3xl font-light mb-10">
+            Extensible and customizable.
+          </h2>
+          <p class="leading-10">
+            Want even more features? Install extensions to add new languages,
+            themes, debuggers, and to connect to additional services. Extensions
+            run in separate processes, ensuring they won't slow down your
+            editor. Learn more about extensions.
+          </p>
+        </div>
+        <div class="flex items-center justify-end w-3/5 h-full">
+          <img src="./Assets/Hundreds-of-Extensions.png" alt="image-here" />
+        </div>
+      </div>
+    </div>
+    <!-- extension ends here -->
+
+    <!-- deploy section start -->
+    <div class="w-full h-96 bg-white">
+      <div class="flex items-center justify-center w-3/5 h-full m-auto">
+        <div class="flex items-center w-4/5 h-full">
+          <img src="./Assets/home-azure.svg" alt="image-here" />
+        </div>
+        <div class="text-[#444444] mb-20">
+          <h2 class="text-3xl font-light mb-10">
+            Deploy with confidence and ease
+          </h2>
+          <p class="leading-10">
+            With Microsoft Azure you can deploy and host your React, Angular,
+            Vue, Node, Python (and more!) sites, store and query relational and
+            document based data, and scale with serverless computing, all with
+            ease, all from within VS Code.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- deploy section ends here -->
+
+    <!-- language section starts -->
+    <div class="w-full h-96 bg-[#F5F5F5]">
       <div
-        class="w-screen h-12 bg-[#2C2C32] flex text-white items-center justify-around"
+        class="flex flex-col items-center justify-center w-3/5 h-full m-auto"
       >
-        <!-- logo container -->
-        <div class="flex ml-40">
-          <img
-            class="w-8 mx-3"
-            src="./Assets/apple-touch-icon.png"
-            alt="image-logo"
-          />
-          <h3 class="m-auto">Visual Studio Code</h3>
+        <div class="text-center">
+          <h1 class="text-[#444444] font-light text-3xl">VS Code for</h1>
+        </div>
+        <!-- first -->
+        <div class="mt-12 text-[#444444] flex items-center justify-center">
+          <div class="mr-10">
+            <img
+              class="inline"
+              src="./Assets/javascript.svg"
+              alt="image-here"
+            />
+            <span>javascript</span>
+          </div>
+          <div class="mr-10">
+            <img class="inline" src="./Assets/python.svg" alt="image-here" />
+            <span>Python</span>
+          </div>
+          <div class="mr-10">
+            <img class="inline" src="./Assets/java.svg" alt="image-here" />
+            <span>Java</span>
+          </div>
+          <div class="mr-10">
+            <img class="inline" src="./Assets/markdown.svg" alt="image-here" />
+            <span>Markdown</span>
+          </div>
+          <div class="mr-10">
+            <img
+              class="inline"
+              src="./Assets/typescript.svg"
+              alt="image-here"
+            />
+            <span>TypeScript</span>
+          </div>
+          <div class="mr-10">
+            <img class="inline" src="./Assets/cpp.svg" alt="image-here" />
+            <span>C/C++</span>
+          </div>
         </div>
 
-        <!-- link container -->
-        <div class="text-[#9B9B9E]">
-          <ul class="flex">
-            <li class="pr-5 hover:text-white">Docs</li>
-            <li class="pr-5 hover:text-white">Updates</li>
-            <li class="pr-5 hover:text-white">Blog</li>
-            <li class="pr-5 hover:text-white">API</li>
-            <li class="pr-5 hover:text-white">Extensions</li>
-            <li class="pr-5 hover:text-white">FAQ</li>
-            <li class="pr-5 hover:text-white">Learn</li>
-          </ul>
+        <!-- two -->
+        <div class="mt-4 text-[#444444] flex items-center justify-center">
+          <div class="mr-10">
+            <img class="inline" src="./Assets/json.svg" alt="image-here" />
+            <span>JSON</span>
+          </div>
+          <div class="mr-10">
+            <img
+              class="inline"
+              src="./Assets/powershell.svg"
+              alt="image-here"
+            />
+            <span>Powershell</span>
+          </div>
+          <div class="mr-10">
+            <img class="inline" src="./Assets/html.svg" alt="image-here" />
+            <span>HTML/CSS</span>
+          </div>
+          <div class="mr-10">
+            <img class="inline" src="./Assets/csharp.svg" alt="image-here" />
+            <span>C#</span>
+          </div>
+          <div class="mr-10">
+            <img class="inline" src="./Assets/php.svg" alt="image-here" />
+            <span>PHP</span>
+          </div>
+          <div class="mr-10">
+            <img class="inline" src="./Assets/yaml.svg" alt="image-here" />
+            <span>YAML</span>
+          </div>
         </div>
 
-        <!-- search container -->
-        <div class="flex mr-15">
-          <i
-            class="fa-sharp fa-solid fa-magnifying-glass relative left-10 top-4"
-          ></i>
+        <!-- link -->
+        <div class="mt-4">
+          <a
+            class="text-[#0066BB] hover:border-b hover:border-[#0066BB]"
+            href="#"
+            >and many more languages on the Marketplace...</a
+          >
+        </div>
 
-          <input
-            class="h-12 w-18 pl-14 bg-[#3D3D42]"
-            type="text"
-            placeholder="Search Docs"
-          />
-
-          <button class="bg-[#0066B8] px-10 py-3">
-            <i class="fa-sharp fa-solid fa-arrow-down"></i> Download
+        <!-- button -->
+        <div class="mt-8">
+          <button
+            class="border-2 bg-[#0066B8] text-white px-12 py-4 font-semi-bold text-xl"
+          >
+            Get Started Now
           </button>
         </div>
       </div>
-    </nav>
+    </div>
+    <!-- language section ends -->
 
-    <!-- second navbar -->
-    <nav>
-      <div class="flex items-center justify-center w-screen h-10 bg-[#25252B]">
-        <p class="text-center text-[#87878A]">
-          <a class="text-[#177AF8] hover:border-b" href="#">Version 1.73</a>
-          is now available! Read about the new features and fixes from October.
-        </p>
+    <!-- version section -->
+    <div class="w-full h-96 bg-[#FFFFFF]">
+      <div class="flex justify-around w-3/5 h-full m-auto">
+        <!-- one -->
+        <div
+          class="flex flex-col items-center justify-center h-full w-96 text-center"
+        >
+          <!-- image div -->
+          <div class="mb-10 mr-8">
+            <img
+              class="w-28"
+              src="./Assets/windows-logo.png"
+              alt="image-here"
+            />
+          </div>
+          <!-- button div -->
+          <div class="mb-4">
+            <button
+              class="bg-[#0066B8] text-white h-16 w-60 relative right-5 hover:bg-[#005BA4] mr-1"
+            >
+              <i class="pr-2 fa-sharp fa-solid fa-arrow-down"></i> Windows
+              <p class="text-xs py-1">Windows 8, 10, 11</p>
+            </button>
+          </div>
+
+          <div class="flex flex-col items-center justify-center mt-4">
+            <!-- first -->
+            <div class="flex mr-8 mb-2">
+              <h1 class="mr-8">User Installer</h1>
+              <button
+                class="bg-[#0066B8] text-white mr-1 rounded font-light text-sm px-1"
+              >
+                x64
+              </button>
+              <button
+                class="bg-[#0066B8] text-white mr-1 rounded font-light text-sm px-1"
+              >
+                x86
+              </button>
+              <button
+                class="bg-[#0066B8] text-white mr-1 rounded font-light text-sm px-1"
+              >
+                Arm64
+              </button>
+            </div>
+
+            <!-- second -->
+            <div class="flex mr-8 mb-2">
+              <h1 class="mr-4">System Installer</h1>
+              <button
+                class="bg-[#0066B8] text-white mr-1 rounded font-light text-sm px-1"
+              >
+                x64
+              </button>
+              <button
+                class="bg-[#0066B8] text-white mr-1 rounded font-light text-sm px-1"
+              >
+                x86
+              </button>
+              <button
+                class="bg-[#0066B8] text-white mr-1 rounded font-light text-sm px-1"
+              >
+                Arm64
+              </button>
+            </div>
+
+            <!-- third -->
+            <div class="flex mr-8">
+              <h1 class="mr-8 relative left-12">.zip</h1>
+              <button
+                class="bg-[#0066B8] text-white ml-20 mr-1 rounded font-light text-sm px-1"
+              >
+                x64
+              </button>
+              <button
+                class="bg-[#0066B8] text-white mr-1 rounded font-light text-sm px-1"
+              >
+                x86
+              </button>
+              <button
+                class="bg-[#0066B8] text-white mr-1 rounded font-light text-sm px-1"
+              >
+                Arm64
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- two -->
+        <div class="flex items-center h-full w-96 text-center">
+          <div
+            class="flex flex-col items-center justify-center h-full w-96 text-center"
+          >
+            <!-- image div -->
+            <div class="mb-10 mr-8">
+              <img
+                class="w-28"
+                src="./Assets/linux-logo.png"
+                alt="image-here"
+              />
+            </div>
+            <!-- button div -->
+            <div class="mb-4">
+              <button
+                class="bg-[#0066B8] text-white h-16 w-36 relative right-5 hover:bg-[#005BA4] mr-1"
+              >
+                <i class="pr-2 fa-sharp fa-solid fa-arrow-down"></i> .deb
+                <p class="text-xs py-1">Debian, Ubuntu...</p>
+              </button>
+
+              <button
+                class="bg-[#0066B8] text-white h-16 w-36 relative right-5 hover:bg-[#005BA4] mr-1"
+              >
+                <i class="pr-2 fa-sharp fa-solid fa-arrow-down"></i> .rpm
+                <p class="text-xs py-1">Red Hat, Fedora...</p>
+              </button>
+            </div>
+
+            <div class="flex flex-col items-center justify-center mt-4">
+              <!-- first -->
+              <div class="flex mr-8 mb-2">
+                <h1 class="mr-8">User Installer</h1>
+                <button
+                  class="bg-[#0066B8] text-white mr-1 rounded font-light text-sm px-1"
+                >
+                  x64
+                </button>
+                <button
+                  class="bg-[#0066B8] text-white mr-1 rounded font-light text-sm px-1"
+                >
+                  x86
+                </button>
+                <button
+                  class="bg-[#0066B8] text-white mr-1 rounded font-light text-sm px-1"
+                >
+                  Arm64
+                </button>
+              </div>
+
+              <!-- second -->
+              <div class="flex mr-8 mb-2">
+                <h1 class="mr-4">System Installer</h1>
+                <button
+                  class="bg-[#0066B8] text-white mr-1 rounded font-light text-sm px-1"
+                >
+                  x64
+                </button>
+                <button
+                  class="bg-[#0066B8] text-white mr-1 rounded font-light text-sm px-1"
+                >
+                  x86
+                </button>
+                <button
+                  class="bg-[#0066B8] text-white mr-1 rounded font-light text-sm px-1"
+                >
+                  Arm64
+                </button>
+              </div>
+
+              <!-- third -->
+              <div class="flex mr-8">
+                <h1 class="mr-8 relative left-12">.zip</h1>
+                <button
+                  class="bg-[#0066B8] text-white ml-20 mr-1 rounded font-light text-sm px-1"
+                >
+                  x64
+                </button>
+                <button
+                  class="bg-[#0066B8] text-white mr-1 rounded font-light text-sm px-1"
+                >
+                  x86
+                </button>
+                <button
+                  class="bg-[#0066B8] text-white mr-1 rounded font-light text-sm px-1"
+                >
+                  Arm64
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- three -->
+        <div class="flex items-center h-full w-96 text-center">
+          <div
+            class="flex flex-col items-center justify-center h-full w-96 text-center mb-12"
+          >
+            <!-- image div -->
+            <div class="mb-10 mr-8">
+              <img
+                class="w-28"
+                src="./Assets/apple-logo.svg"
+                alt="image-here"
+              />
+            </div>
+            <!-- button div -->
+            <div class="mb-4">
+              <button
+                class="bg-[#0066B8] text-white h-16 w-60 relative right-5 hover:bg-[#005BA4] mr-1"
+              >
+                <i class="pr-2 fa-sharp fa-solid fa-arrow-down"></i> Mac
+                <p class="text-xs py-1">macOS 10.11+</p>
+              </button>
+            </div>
+
+            <div class="flex flex-col items-center justify-center mt-4">
+              <!-- first -->
+              <div class="flex mr-12 mb-2">
+                <h1 class="mr-2">.zip</h1>
+                <button
+                  class="bg-[#0066B8] text-white mr-1 rounded font-light text-sm px-1"
+                >
+                  Universal
+                </button>
+                <button
+                  class="bg-[#0066B8] text-white mr-1 rounded font-light text-sm px-1"
+                >
+                  Intel chip
+                </button>
+                <button
+                  class="bg-[#0066B8] text-white mr-1 rounded font-light text-sm px-1"
+                >
+                  Apple silicon
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-    </nav>
+    </div>
+    <!-- version section ends here -->
 
-    <!-- hero section  -->
-    <section>
-      <div class="hero-container h-30 w-screen bg-black"></div>
-    </section>
+    <!-- policy section starts -->
+    <div class="w-full h-96 bg-[#F5F5F5]">
+      <div
+        class="flex flex-col items-center justify-center w-3/5 h-full m-auto"
+      >
+        <div class="flex justify-around w-full">
+          <div>
+            <p class="text-xl">Want new features sooner?</p>
+            <p class="text-[#6C6C6C]">
+              Get the
+              <a class="text-[#2D74D7] hover:border-b border-[#2D74D7]" href="#"
+                >Insiders build</a
+              >
+              instead.
+            </p>
+          </div>
+          <div>
+            <p class="text-xl">
+              Use
+              <a class="text-[#2D74D7] hover:border-b border-[#2D74D7]" href="#"
+                >vscode.dev</a
+              >
+              for quick edits online!
+            </p>
+            <p class="text-[#6C6C6C]">GitHub, Azure Repos, and local files.</p>
+          </div>
+        </div>
+
+        <div>
+          <div class="flex flex-col items-center justify-center mt-20">
+            <p class="text-sm font-bold text-[#989898] mb-4">
+              LICENSE AND PRIVACY TERMS
+            </p>
+            <p class="text-[#AAAAAA] text-sm mb-2">
+              By downloading and using Visual Studio Code, you agree to the
+              <a class="text-[#2D74D7] hover:border-b border-[#2D74D7]" href="#"
+                >license terms</a
+              >
+              and
+              <a class="text-[#2D74D7] hover:border-b border-[#2D74D7]" href="#"
+                >privacy</a
+              >
+              statement. VS Code
+            </p>
+            <p class="text-[#AAAAAA] text-sm mb-2">
+              automatically sends telemetry data and crash dumps to help us
+              improve the product. If you would prefer not
+            </p>
+            <p class="text-[#AAAAAA] text-sm mb-2">
+              to have this data sent please go see
+              <a class="text-[#2D74D7] hover:border-b border-[#2D74D7]" href="#"
+                >How to Disable Crash Reporting</a
+              >
+              to learn how to disable it.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
