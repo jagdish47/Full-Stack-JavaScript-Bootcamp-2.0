@@ -458,23 +458,75 @@
   bottom: 30px;
 }
 
-/* SIXTH SECTION */
+/* SIXTH SECTION STARTS */
+
 .banner-container {
   width: 100%;
   height: 500px;
-  border: 2px solid purple;
-  background-size: cover;
+  border: 3px solid peru;
   position: relative;
-  bottom: 30px;
+}
+
+.banner-container .front {
+  position: absolute;
+  top: 0px;
+  left: 0px;
 }
 
 .banner-container img {
-  height: 100%;
   width: 100%;
-  /* transform: rotate(10deg); */
+  height: 500px;
 }
 
-.image-two {
-  position: relative;
-  bottom: 500px;
+.right-diamond {
+  width: 450px;
+  height: 480px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.left-diamond {
+  width: 450px;
+  height: 480px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.banner-text-container {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.banner-head {
+  font-family: "Poppins", sans-serif;
+  font-size: 50px;
+  font-weight: 600;
+  color: #ffffff;
+  width: 681px;
+  text-align: center;
+}
+
+.banner-head span {
+  color: #151515;
+}
+
+.banner-start {
+  border: 2px solid black;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.banner-start p {
+  background-image: url("./Assets/Icons/btn-pink-bg.svg");
+  background-repeat: no-repeat;
+  background-position: 250px;
+  background-size: 70px;
 }
