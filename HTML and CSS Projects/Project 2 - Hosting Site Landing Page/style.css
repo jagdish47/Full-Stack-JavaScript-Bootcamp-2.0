@@ -167,9 +167,57 @@ html {
 
 .square-banner-container {
   width: 100%;
-  height: 500px;
-  border: 2px solid black;
+  max-height: 500px;
+  /* border: 2px solid black; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+
+.square-one {
+  width: 20%;
+  height: 38rem;
+  border: 2px solid #888787;
+  border-radius: 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.square-one img {
+  width: 10rem;
+}
+
+.square-one .square-head {
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+.square-one .square-sub {
+  color: #595858;
+  font-size: 1.8rem;
+  text-align: center;
+  width: 80%;
+}
+
+.square-one > img,
+p {
+  margin-bottom: 3.5rem;
+}
+
+.bg-black {
+  background-color: #111010;
+  color: white;
+  border: none;
+  margin: 0rem 3rem 4rem 3rem;
+}
+
+.sub-clr {
+  color: #595858;
+}
+
+/* Fourth Section----------------------------- */
 
 /* Tablet Responsive */
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
@@ -250,6 +298,52 @@ html {
 
   .inner-logo-container img:nth-child(2n) {
     display: none;
+  }
+
+  /* Third Section ---------------- */
+
+  .service-text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 400px;
+  }
+
+  .service-head-text {
+    font-size: 2.5rem;
+    font-weight: 500;
+  }
+
+  .service-sub-text {
+    font-size: 1.5rem;
+    color: #888787;
+    width: 600px;
+    text-align: center;
+  }
+
+  .square-banner-container {
+    margin-top: 20rem;
+
+    width: 100%;
+    max-height: 500px;
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .square-one {
+    margin-bottom: 2rem;
+    width: 50%;
+    height: 38rem;
+    border: 2px solid #888787;
+    border-radius: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 }
 
@@ -366,5 +460,49 @@ html {
   /* second section */
   .inner-logo-container img:nth-child(2n) {
     display: none;
+  }
+
+  * Third Section ---------------- */ .service-text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 400px;
+  }
+
+  .service-head-text {
+    font-size: 2.5rem;
+    font-weight: 500;
+  }
+
+  .service-sub-text {
+    font-size: 1.5rem;
+    color: #888787;
+    width: 600px;
+    text-align: center;
+  }
+
+  .square-banner-container {
+    margin-top: 20rem;
+
+    width: 100%;
+    max-height: 500px;
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .square-one {
+    margin-bottom: 2rem;
+    width: 50%;
+    height: 38rem;
+    border: 2px solid #888787;
+    border-radius: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 }
