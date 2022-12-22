@@ -219,6 +219,23 @@ p {
 
 /* Fourth Section----------------------------- */
 
+.fourth-section {
+  margin-top: 15rem;
+}
+.qna-heading {
+  width: 100%;
+}
+
+.qna-heading {
+  font-size: 5rem;
+  color: black;
+  font-weight: 600;
+  width: 65%;
+  margin: auto;
+}
+
+/* ------------------- */
+
 /* Tablet Responsive */
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
   .home-container {
