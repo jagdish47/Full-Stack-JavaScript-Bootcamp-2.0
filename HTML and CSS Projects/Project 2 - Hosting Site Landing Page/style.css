@@ -234,6 +234,81 @@ p {
   margin: auto;
 }
 
+.qna-main-container {
+  width: 100%;
+  height: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.qna-left {
+  height: 600px;
+  width: 30%;
+}
+
+.qna-one {
+  height: 8rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #ffffff;
+  border-radius: 5rem;
+  margin-bottom: 2rem;
+  border: 1px solid #595858;
+}
+
+.first {
+  background-color: #0184fc;
+}
+
+.first .qna-head {
+  color: #ffff;
+}
+
+.changes {
+  padding: 5rem 0rem;
+}
+.qna-head {
+  font-size: 2rem;
+  color: rgb(0, 0, 0);
+  font-weight: 500;
+  margin-top: 3rem;
+  padding-left: 2rem;
+}
+
+.qna-img {
+  width: 3rem;
+  margin-right: 2rem;
+}
+
+.qna-right {
+  margin-left: 3rem;
+  height: 600px;
+  width: 30%;
+  background-color: #111010;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 3rem;
+}
+
+.qna-two {
+  height: 5rem;
+  width: 90%;
+  display: flex;
+  background-color: #292828;
+  border: none;
+}
+
+.qna-two .qna-head {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #ffffff;
+}
+
 /* ------------------- */
 
 /* Tablet Responsive */
