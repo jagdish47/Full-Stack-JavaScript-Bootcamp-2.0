@@ -439,6 +439,132 @@ p {
   }
 }
 
+/* ---------Fifth Section----------------- */
+
+.price-container {
+  width: 100%;
+  max-height: 40rem;
+  background-color: #111010;
+}
+
+.price-upper-second {
+  color: #ffffff;
+}
+.price-head {
+  font-size: 4.5rem;
+  color: #ffffff;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.price-head p {
+  width: 40%;
+  text-align: center;
+  margin-top: 8rem;
+}
+
+.service-arrow {
+  position: relative;
+  bottom: 10rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+.service-arrow img:first-child {
+  margin-right: 40rem;
+}
+
+/* actual banner  */
+.price-main-banner-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #111010;
+}
+.price-banner-container {
+  width: 18%;
+  border: 2px solid black;
+  padding: 3rem;
+  border-radius: 3rem;
+  background-color: #ffffff;
+  margin: 1rem;
+}
+
+.price-banner-second {
+  background-color: #0184fc;
+  color: white;
+}
+
+.price-upper {
+  border-bottom: 1px solid #aaaaaa;
+}
+.categories {
+  color: #111010;
+  font-size: 3rem;
+  text-align: left;
+}
+
+.actual-price {
+  color: #000000;
+  font-size: 4.5rem;
+}
+
+.month {
+  color: #aaaaaa;
+  font-size: 2.5rem;
+  font-weight: 400;
+}
+
+.actual-text {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.second {
+  color: #ffffff;
+}
+
+.second-mon {
+  color: #ffffff;
+}
+/* ------------- */
+.fifth {
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  height: 4rem;
+}
+
+.fifth-one {
+  margin-top: 2rem;
+}
+
+.fifth-img {
+  position: relative;
+  bottom: 1.8rem;
+}
+.fifth-text {
+  /* margin-top: 3.6rem; */
+  font-size: 1.8rem;
+  margin-left: 0.5rem;
+}
+
+.btn-primary {
+  background-color: #0184fc;
+  color: #ffffff;
+  font-size: 2rem;
+  padding: 1rem 10rem;
+  border: none;
+  border-radius: 2rem;
+}
+
+.btn-second {
+  background-color: white;
+  color: #0184fc;
+}
+
 /* Mobile Responsive */
 @media only screen and (min-device-width: 320px) and (max-device-width: 768px) {
   .header-container {
