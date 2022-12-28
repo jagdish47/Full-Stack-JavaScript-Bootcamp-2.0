@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+/* ----heading---- */
+.category-text-container {
+  width: 100%;
+  height: 300px;
+  /* border: 2px solid green; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5rem;
+}
+
+.category-text-container p {
+  font-size: 4rem;
+  width: 35%;
+  text-align: center;
+  font-weight: bold;
+  line-height: 6rem;
+}
+
+/* ------heading ends----- */
+
+/* ------category starts------- */
