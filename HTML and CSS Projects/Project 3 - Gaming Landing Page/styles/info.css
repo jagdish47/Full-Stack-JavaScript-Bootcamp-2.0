@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.war-game-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 800px;
+  width: 100%;
+  /* border: 2px solid red; */
+}
+
+.war-left {
+  width: 40%;
+  height: 70%;
+  /* border: 2px solid red; */
+  overflow: hidden;
+  padding: 5rem;
+  margin-right: 5rem;
+}
+
+.war-left img {
+  width: 130%;
+  position: relative;
+  right: 10rem;
+}
+
+.war-right {
+  width: 40%;
+  height: 70%;
+  /* border: 2px solid blue; */
+  padding-top: 5rem;
+}
+
+.war-right h1 {
+  font-size: 4rem;
+  width: 60%;
+  font-weight: 700;
+  margin-bottom: 4rem;
+}
+
+.war-right p {
+  font-size: 1.5rem;
+  width: 60%;
+  font-weight: noraml;
+  color: #8f8f8f;
+  line-height: 3rem;
+  margin-bottom: 4rem;
+}
+
+.war-btn-one {
+  font-weight: 600;
+  padding: 2rem 5rem;
+}
+
+.war-btn-two {
+  padding: 2rem 5rem;
+  color: #f4694c;
+  font-weight: 600;
+  background-color: #ffffff;
+  margin-left: 2rem;
+}
