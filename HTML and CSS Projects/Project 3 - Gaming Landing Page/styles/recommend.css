@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.container {
+  width: 100%;
+  height: 900px;
+  /* border: 2px solid rgb(255, 0, 43); */
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: center;
+  align-items: center;
+}
+
+.one {
+  width: 80%;
+  grid-column: span 2;
+
+  justify-self: right;
+  align-self: center;
+}
+
+.one p {
+  width: 70%;
+  font-size: 4rem;
+  font-weight: 700;
+}
+.two {
+  width: 20%;
+  grid-column: span 2;
+  align-self: right;
+  justify-self: right;
+}
+
+.two .arrow-one {
+  height: 50px;
+  width: 50px;
+  /* border: 1px solid black; */
+  background-color: #fde1db;
+  padding: 1rem;
+}
+
+.two .arrow-two {
+  height: 50px;
+  width: 50px;
+  /* border: 1px solid black; */
+  background-color: #f4694c;
+  padding: 1rem;
+}
+
+.three {
+  background-image: url("../Assets/Photos/Rectangle\ 75.png");
+  width: 60%;
+  height: 300px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-self: right;
+  justify-self: right;
+}
+
+.four {
+  width: 80%;
+  height: 300px;
+}
+
+.four h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  width: 90%;
+  margin-top: 2rem;
+
+  margin-bottom: 3rem;
+}
+
+.four h2 {
+  font-size: 2rem;
+  color: #f4694c;
+  margin-bottom: 3rem;
+}
+
+.four p {
+  font-size: 1.8rem;
+  color: #8f8f8f;
+  margin-bottom: 3rem;
+}
+
+.btn {
+  font-size: 2rem;
+  color: #fff;
+  background-color: #f4694c;
+  padding: 1.5rem 4rem;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 768px) {
+  .container {
+    width: 100%;
+    height: 900px;
+    /* border: 2px solid rgb(255, 0, 43); */
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .container {
+    width: 100%;
+    height: 900px;
+    /* border: 2px solid rgb(255, 0, 43); */
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: center;
+    align-items: center;
+  }
+}
