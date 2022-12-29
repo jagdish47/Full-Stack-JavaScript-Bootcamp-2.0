@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+/* heading container */
+.most-played {
+  margin-top: 200px;
+  width: 100%;
+  height: 300px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.most-played p {
+  color: white;
+  font-size: 5rem;
+  font-weight: 800;
+  width: 25%;
+  text-align: center;
+}
+
+/* heading container ends */
+
+.most-played-banner {
+  width: 100%;
+  height: 700px;
+  display: grid;
+  grid-template-columns: 40% 20% 20%;
+  background-color: black;
+  justify-content: center;
+  gap: 4rem;
+  overflow: hidden;
+  padding-right: 10rem;
+}
+
+.first {
+  width: 80%;
+  height: 100%;
+  grid-column: 1/2;
+  grid-row: 1/3;
+  /* align-self: center; */
+  justify-self: end;
+}
+
+.first img {
+  width: 100%;
+}
+
+.second {
+  grid-column: span 2;
+  align-self: center;
+}
+
+.second p {
+  color: #5b5d60;
+  font-size: 2rem;
+  line-height: 3.5rem;
+  width: 85%;
+}
+
+.third {
+}
+
+.third img {
+  width: 100%;
+  height: 100%;
+}
+
+.fourth {
+  align-self: end;
+}
+
+.fourth img {
+  width: 100%;
+  align-self: center;
+  justify-self: center;
+}
