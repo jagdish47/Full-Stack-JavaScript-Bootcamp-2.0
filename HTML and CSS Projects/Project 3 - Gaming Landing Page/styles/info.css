@@ -68,3 +68,132 @@ html {
   background-color: #ffffff;
   margin-left: 2rem;
 }
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 768px) {
+  .war-game-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 800px;
+    width: 100%;
+    /* border: 2px solid red; */
+  }
+
+  .war-left {
+    width: 40%;
+    height: 70%;
+    /* border: 2px solid red; */
+    overflow: hidden;
+    padding: 5rem;
+    margin-right: 5rem;
+  }
+
+  .war-left img {
+    width: 500px;
+    position: relative;
+    right: 10rem;
+  }
+
+  .war-right h1 {
+    font-size: 2rem;
+    width: 100%;
+    font-weight: 700;
+    margin-bottom: 4rem;
+  }
+
+  .war-right p {
+    font-size: 1.5rem;
+    width: 100%;
+    font-weight: noraml;
+    color: #8f8f8f;
+    line-height: 3rem;
+    margin-bottom: 4rem;
+  }
+
+  .war-btn {
+    margin: auto;
+    flex-direction: column;
+    padding: 3rem;
+    /* border: 2px solid red; */
+  }
+
+  .war-btn-one {
+    font-weight: 600;
+    padding: 1rem 3rem;
+  }
+
+  .war-btn-two {
+    margin-bottom: 2rem;
+    padding: 1rem 3rem;
+    color: #f4694c;
+    font-weight: 600;
+    background-color: #ffffff;
+    margin-left: 0rem;
+    margin-top: 2rem;
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .war-game-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* flex-direction: column; */
+    height: 500px;
+    width: 100%;
+    /* border: 2px solid red; */
+  }
+  .war-left {
+    width: 40%;
+    height: 70%;
+    border: 2px solid red;
+    overflow: hidden;
+    padding: 5rem;
+    margin-right: 5rem;
+  }
+
+  .war-left img {
+    width: 500px;
+    position: relative;
+    right: 10rem;
+  }
+
+  .war-right h1 {
+    font-size: 2rem;
+    width: 100%;
+    font-weight: 700;
+    margin-bottom: 4rem;
+  }
+
+  .war-right p {
+    font-size: 1.5rem;
+    width: 100%;
+    font-weight: noraml;
+    color: #8f8f8f;
+    line-height: 3rem;
+    margin-bottom: 4rem;
+  }
+
+  .war-btn {
+    margin: auto;
+    flex-direction: column;
+    padding: 3rem;
+    /* border: 2px solid red; */
+  }
+
+  .war-btn-one {
+    font-weight: 600;
+    padding: 1rem 3rem;
+  }
+
+  .war-btn-two {
+    margin-bottom: 2rem;
+    padding: 1rem 3rem;
+    color: #f4694c;
+    font-weight: 600;
+    background-color: #ffffff;
+    margin-left: 0rem;
+    margin-top: 2rem;
+  }
+}
