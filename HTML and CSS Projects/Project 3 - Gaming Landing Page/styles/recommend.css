@@ -66,7 +66,17 @@ html {
   align-self: right;
   justify-self: right;
 }
+.f-img {
+  background-image: url("../Assets/Photos/Rectangle\ 76.png");
+}
 
+.s-img {
+  background-image: url("../Assets/Photos/Rectangle\ 77.png");
+}
+
+.t-img {
+  background-image: url("../Assets/Photos/Rectangle\ 78.png");
+}
 .four {
   width: 80%;
   height: 300px;
