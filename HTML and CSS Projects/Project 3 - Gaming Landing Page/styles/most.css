@@ -84,3 +84,46 @@ html {
   align-self: center;
   justify-self: center;
 }
+
+/* Expericen Section */
+
+.exp-container {
+  width: 100%;
+  height: 700px;
+  /* border: 2px solid red; */
+  background-image: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.76),
+      rgba(0, 0, 0, 0.774)
+    ),
+    url("../Assets/Photos/Rectangle\ 606.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.exp-content {
+  width: 30%;
+  /* border: 2px solid red; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.exp-container h1 {
+  color: #ffffff;
+  font-size: 4rem;
+  text-align: center;
+  font-weight: bold;
+}
+
+.exp-container p {
+  color: #5b5d60;
+  font-size: 2rem;
+  text-align: center;
+  margin: 2rem 0rem;
+}
