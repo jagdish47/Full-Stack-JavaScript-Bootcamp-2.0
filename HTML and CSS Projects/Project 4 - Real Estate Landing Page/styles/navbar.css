@@ -6,4 +6,123 @@
 
 html {
   font-size: 62.5%;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.btn {
+  background-color: #6663e9;
+  color: #fff;
+  padding: 2rem 5rem;
+  border-radius: 5rem;
+  border: none;
+  font-size: 1.7rem;
+  font-weight: 600;
+  transition: all 0.3s;
+}
+
+.btn:hover {
+  color: #6663e9;
+  background-color: #fff;
+}
+
+.nav-side-container h1:hover {
+  animation-name: example;
+  animation-duration: 5s;
+}
+@keyframes example {
+  20% {
+    color: #6663e9;
+  }
+  50% {
+    color: #7a79b3;
+  }
+  100% {
+    color: rgb(255, 255, 255);
+  }
+}
+.nav-background-container {
+  width: 100%;
+  height: 100vh;
+  background-image: url("../Assets/Photos/mainBackground.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: grey;
+  background-blend-mode: multiply;
+  /* filter: brightness(50%); */
+}
+
+.header-container {
+  margin: auto;
+  width: 80%;
+  height: 150px;
+  /* border: 2px solid white; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 2px solid grey;
+}
+.header-logo {
+  margin-left: 5rem;
+}
+
+.head-options {
+  width: 50%;
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: space-around;
+}
+
+.head-options li {
+  list-style: none;
+  color: #ffffff;
+  font-size: 2rem;
+}
+
+/* aside container starts */
+.aside-container {
+  /* border: 2px solid red; */
+  width: 80%;
+  height: 80%;
+  display: flex;
+  align-items: center;
+  margin: auto;
+}
+
+.nav-side-container h1 {
+  font-size: 7rem;
+  color: #fff;
+  width: 60%;
+  transition: all 0.5s;
+}
+
+.nav-side-container p {
+  font-size: 2rem;
+  color: #9b9f9f;
+  width: 40%;
+  margin: 4rem 0rem;
+}
+
+/* bottom-logoes container here */
+
+.all-logo {
+  width: 80%;
+  height: 200px;
+  margin: auto;
+  border-radius: 5rem;
+  /* border: 2px solid red; */
+  background-color: #ffffff;
+  position: relative;
+  bottom: 5rem;
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px,
+    rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px,
+    rgba(0, 0, 0, 0.07) 0px 16px 16px;
+}
+
+.all-container {
+  display: flex;
+  height: 200px;
+
+  align-items: center;
+  justify-content: space-around;
 }

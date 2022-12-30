@@ -1,4 +1,4 @@
-# Project 2- Gaming Landing Page
+# Project 4- Real Estate Landing Page
 
 ## About Project
 
@@ -21,4 +21,4 @@ This is completely Responsive.
 
 <br/>
 
-![Project](./Gaming%20Landing%20Page.png)
+![Project](./Real%20Estate%20-%20Desktop.png)
