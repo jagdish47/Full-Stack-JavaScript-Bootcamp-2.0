@@ -105,11 +105,12 @@ html {
   height: 100%;
   /* border: 2px solid rgb(255, 0, 0); */
   position: relative;
-  left: 40rem;
+  left: 50rem;
+  bottom: 5rem;
 }
 
 .head-right h1 {
-  font-size: 10rem;
+  font-size: 7rem;
   color: #fff;
   font-weight: 600;
 }
@@ -146,4 +147,8 @@ html {
 
 .btn-flex img {
   width: 2.5rem;
+}
+
+.head-btn {
+  margin-top: 5rem;
 }
