@@ -152,3 +152,19 @@ html {
 .head-btn {
   margin-top: 5rem;
 }
+
+/* ---------Logo container--------- */
+
+.logo-container {
+  margin: auto;
+  width: 60%;
+  height: 200px;
+  /* border: 2px solid white; */
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.logo-container > img {
+  width: 120px;
+}
