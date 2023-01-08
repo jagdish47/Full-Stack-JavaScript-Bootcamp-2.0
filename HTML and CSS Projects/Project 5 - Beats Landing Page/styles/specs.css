@@ -121,3 +121,71 @@ html {
   top: 0.5rem;
   right: 1rem;
 }
+
+/* Banner section */
+
+.banner-main-container {
+  width: 100%;
+  height: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner-container {
+  width: 65%;
+  height: 400px;
+  background-color: #181a1b;
+  margin: auto;
+  display: flex;
+}
+
+.left-banner {
+  border: 2px solid #fff;
+  width: 50%;
+  height: 100%;
+  display: flex;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 15rem;
+}
+
+.left-banner h1 {
+  color: #fff;
+  font-size: 3rem;
+  width: 60%;
+  font-weight: 500;
+}
+
+.left-banner p {
+  margin: 1rem 0rem;
+}
+
+.left-banner p {
+  font-size: 2rem;
+  color: #a4a6a8;
+}
+
+.right-banner {
+  border: 2px solid #fff;
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner-bag {
+  position: relative;
+  right: 1rem;
+  top: 0.2rem;
+}
+
+.right-banner img {
+  width: 400px;
+}
+
+.banner-btn {
+  background-color: #000000;
+}
