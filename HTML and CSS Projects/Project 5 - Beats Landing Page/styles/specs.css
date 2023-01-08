@@ -85,3 +85,39 @@ html {
 .l-four p {
   width: 70%;
 }
+
+/* -----case section------ */
+.case-heading {
+  width: 100%;
+  height: 250px;
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.case-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.case-right {
+  /* border: 1px solid wheat; */
+  margin-left: 5rem;
+}
+
+.case-right p {
+  color: #a4a6a8;
+  font-size: 2rem;
+  width: 300px;
+  line-height: 3.5rem;
+  margin-bottom: 5rem;
+}
+
+.grp-img {
+  position: relative;
+  top: 0.5rem;
+  right: 1rem;
+}
