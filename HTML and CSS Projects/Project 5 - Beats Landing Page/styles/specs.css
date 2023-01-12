@@ -133,7 +133,8 @@ html {
 }
 
 .banner-container {
-  width: 65%;
+  border-radius: 2rem;
+  width: 60%;
   height: 400px;
   background-color: #181a1b;
   margin: auto;
@@ -141,7 +142,7 @@ html {
 }
 
 .left-banner {
-  border: 2px solid #fff;
+  /* border: 2px solid #fff; */
   width: 50%;
   height: 100%;
   display: flex;
@@ -154,7 +155,7 @@ html {
 .left-banner h1 {
   color: #fff;
   font-size: 3rem;
-  width: 60%;
+  width: 70%;
   font-weight: 500;
 }
 
@@ -168,7 +169,7 @@ html {
 }
 
 .right-banner {
-  border: 2px solid #fff;
+  /* border: 2px solid #fff; */
   width: 50%;
   height: 100%;
   display: flex;
