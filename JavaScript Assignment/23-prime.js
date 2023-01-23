@@ -9,7 +9,7 @@ for (let i = 1; i <= num; i++) {
 }
 
 if (count == 2) {
-  console.log("Yess! Prime number");
+  console.log("Yess! Prime Number");
 } else {
-  console.log("Noo! Not Prime number");
+  console.log("Noo! Not Prime Number");
 }
