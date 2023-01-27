@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>click anywhere and create a circle.</title>
+
+    <style>
+      .circle {
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        background-color: #ffffff;
+      }
+      body {
+        height: 100vh;
+        width: 100vw;
+        background-color: #4d4d4d;
+      }
+    </style>
+  </head>
+  <body id="body">
+    <!-- script write here -->
+    <script>
+      let body = document.querySelector("body");
+      body.addEventListener("click", function (event) {
+        let element = document.createElement("div");
+        element.classList.add("circle");
+
+        element.style.left = event.clientX + "px";
+        element.style.top = event.clientY + "px";
+        body.appendChild(element);
+      });
+    </script>
+  </body>
+</html>
