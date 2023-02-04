@@ -44,6 +44,21 @@ project.textContent = "Projects";
 
 ![Project](./task4Output.png)
 
+```
+let avatarDiv = document.querySelector(".hero-right-section img");
+
+avatarDiv.setAttribute("src", "./spider-man.jpeg");
+```
+
 # Task-5 :- Output
 
 ![Project](./task5Output.png)
+
+```
+const button = document.createElement("button");
+button.textContent = "Support Me";
+
+const buttonDiv = document.querySelector(".hero-right-section-btns");
+
+buttonDiv.append(button);
+```
