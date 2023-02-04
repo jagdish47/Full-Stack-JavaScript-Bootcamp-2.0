@@ -23,9 +23,22 @@ ul.append(li);
 
 ![Project](./task2Output.png)
 
+```
+const searchDiv = document.querySelector(".search-field input");
+searchDiv.placeholder = "Search My Project";
+
+const removeIcon = document.querySelector("footer ul");
+removeIcon.style.display = "none";
+```
+
 # Task-3 :- Output
 
 ![Project](./task3Output.png)
+
+```
+const project = document.querySelector("ul li:last-child a");
+project.textContent = "Projects";
+```
 
 # Task-4 :- Output
 
